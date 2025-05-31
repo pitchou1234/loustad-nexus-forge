@@ -118,49 +118,49 @@ const Index = () => {
           <div className="mb-12 relative">
             <div className="inline-flex items-center gap-4 mb-8">
               <div className="relative">
-                <Network className="w-12 h-12 text-turquoise-400 animate-pulse" />
+                <Network className="w-8 h-8 text-turquoise-400 animate-pulse" />
                 <div className="absolute inset-0 animate-ping">
-                  <Network className="w-12 h-12 text-turquoise-400 opacity-30" />
+                  <Network className="w-8 h-8 text-turquoise-400 opacity-30" />
                 </div>
               </div>
-              <div className="h-12 w-px bg-gradient-to-b from-transparent via-turquoise-400 to-transparent"></div>
-              <Cpu className="w-10 h-10 text-turquoise-300 animate-bounce" style={{ animationDelay: '0.5s' }} />
-              <div className="h-10 w-px bg-gradient-to-b from-transparent via-turquoise-300 to-transparent"></div>
-              <Database className="w-8 h-8 text-turquoise-200 animate-pulse" style={{ animationDelay: '1s' }} />
+              <div className="h-8 w-px bg-gradient-to-b from-transparent via-turquoise-400 to-transparent"></div>
+              <Cpu className="w-7 h-7 text-turquoise-300 animate-bounce" style={{ animationDelay: '0.5s' }} />
+              <div className="h-7 w-px bg-gradient-to-b from-transparent via-turquoise-300 to-transparent"></div>
+              <Database className="w-6 h-6 text-turquoise-200 animate-pulse" style={{ animationDelay: '1s' }} />
             </div>
             
-            <h1 className="text-7xl md:text-9xl font-black mb-8 leading-none">
+            <h1 className="text-4xl md:text-6xl font-black mb-6 leading-none">
               <span className="block gradient-text tracking-tight">LOUSTAD</span>
-              <span className="block text-4xl md:text-6xl font-light text-turquoise-400 tracking-[0.3em] mt-2">R&D™</span>
+              <span className="block text-2xl md:text-3xl font-light text-turquoise-400 tracking-[0.2em] mt-2">R&D</span>
             </h1>
           </div>
 
           {/* Enhanced Taglines */}
           <div className="space-y-6 mb-16">
-            <p className="text-2xl md:text-4xl font-light text-white/90 leading-relaxed">
+            <p className="text-lg md:text-2xl font-light text-white/90 leading-relaxed">
               The <span className="text-turquoise-400 font-medium">brain</span> behind custom intelligent systems.
             </p>
-            <div className="flex flex-wrap justify-center gap-2 text-lg md:text-xl text-gray-300">
+            <div className="flex flex-wrap justify-center gap-2 text-sm md:text-base text-gray-300">
               {['Law', 'Energy', 'Biology', 'Strategy', 'Finance', 'Health'].map((sector, index) => (
-                <span key={sector} className="px-4 py-2 border border-turquoise-400/30 rounded-full bg-turquoise-400/5 backdrop-blur-sm">
+                <span key={sector} className="px-3 py-1 border border-turquoise-400/30 rounded-full bg-turquoise-400/5 backdrop-blur-sm">
                   {sector}
                 </span>
               ))}
             </div>
-            <p className="text-xl md:text-2xl text-turquoise-300 font-light max-w-4xl mx-auto leading-relaxed">
+            <p className="text-base md:text-xl text-turquoise-300 font-light max-w-3xl mx-auto leading-relaxed">
               We design the intelligence you need.
             </p>
           </div>
           
           {/* Enhanced CTAs */}
-          <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <Button 
               size="lg" 
-              className="bg-turquoise-500 hover:bg-turquoise-400 text-black font-bold px-12 py-6 text-xl rounded-xl relative overflow-hidden group transition-all duration-300 hover:scale-105"
+              className="bg-turquoise-500 hover:bg-turquoise-400 text-black font-bold px-8 py-4 text-lg rounded-xl relative overflow-hidden group transition-all duration-300 hover:scale-105"
             >
               <span className="relative z-10 flex items-center">
                 Explore Our Systems
-                <ArrowRight className="ml-3 h-6 w-6 transition-transform group-hover:translate-x-1" />
+                <ArrowRight className="ml-3 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-turquoise-400 to-turquoise-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </Button>
@@ -168,11 +168,11 @@ const Index = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-2 border-turquoise-400 text-turquoise-400 hover:bg-turquoise-400 hover:text-black font-bold px-12 py-6 text-xl rounded-xl backdrop-blur-sm bg-turquoise-400/5 transition-all duration-300 hover:scale-105 relative overflow-hidden group"
+              className="border-2 border-turquoise-400 text-turquoise-400 hover:bg-turquoise-400 hover:text-black font-bold px-8 py-4 text-lg rounded-xl backdrop-blur-sm bg-turquoise-400/5 transition-all duration-300 hover:scale-105 relative overflow-hidden group"
             >
               <span className="relative z-10 flex items-center">
                 Design Your AI
-                <Brain className="ml-3 h-6 w-6 transition-transform group-hover:rotate-12" />
+                <Brain className="ml-3 h-5 w-5 transition-transform group-hover:rotate-12" />
               </span>
             </Button>
           </div>
@@ -183,11 +183,11 @@ const Index = () => {
       <section className="relative z-10 py-32 px-6 bg-gradient-to-b from-transparent to-gray-900/20">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-20">
-            <h2 className="text-5xl md:text-7xl font-bold mb-12 gradient-text">
+            <h2 className="text-3xl md:text-5xl font-bold mb-12 gradient-text">
               Why Loustad R&D?
             </h2>
             <div className="max-w-4xl mx-auto space-y-8">
-              <p className="text-2xl text-gray-200 leading-relaxed">
+              <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
                 We blend <span className="text-turquoise-400 font-semibold">legal engineers</span>, 
                 <span className="text-turquoise-400 font-semibold"> data scientists</span>, 
                 <span className="text-turquoise-400 font-semibold"> bioinformaticians</span>, and 
@@ -195,7 +195,7 @@ const Index = () => {
               </p>
               
               <div className="relative py-16">
-                <div className="text-4xl md:text-5xl font-black text-center">
+                <div className="text-2xl md:text-3xl font-black text-center">
                   <span className="text-white">"You have a </span>
                   <span className="text-turquoise-400 animate-pulse">challenge</span>
                   <span className="text-white">.</span>
@@ -217,7 +217,7 @@ const Index = () => {
       {/* Featured Systems - Premium Design */}
       <section className="relative z-10 py-32 px-6">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-5xl md:text-7xl font-bold text-center mb-24 gradient-text">
+          <h2 className="text-3xl md:text-5xl font-bold text-center mb-24 gradient-text">
             Featured Systems
           </h2>
           
@@ -230,10 +230,10 @@ const Index = () => {
                   <div className="flex-1 space-y-8">
                     <div className="flex items-center gap-6">
                       <div className="p-4 bg-turquoise-400/10 rounded-2xl">
-                        <Dna className="h-12 w-12 text-turquoise-400" />
+                        <Dna className="h-8 w-8 text-turquoise-400" />
                       </div>
                       <div>
-                        <h3 className="text-4xl md:text-5xl font-bold text-white">Smart Formulator™</h3>
+                        <h3 className="text-2xl md:text-3xl font-bold text-white">Smart Formulator™</h3>
                         <div className="flex gap-2 mt-2">
                           <span className="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm">Biology</span>
                           <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">AI</span>
@@ -241,13 +241,13 @@ const Index = () => {
                         </div>
                       </div>
                     </div>
-                    <p className="text-xl text-gray-300 leading-relaxed">
+                    <p className="text-lg text-gray-300 leading-relaxed">
                       Personalized health OS combining advanced biology, AI algorithms, and precision formulation engine 
                       to create perfectly tailored wellness solutions for individual genetic profiles.
                     </p>
-                    <Button className="bg-turquoise-500 hover:bg-turquoise-400 text-black font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105">
+                    <Button className="bg-turquoise-500 hover:bg-turquoise-400 text-black font-semibold px-6 py-3 rounded-xl transition-all duration-300 hover:scale-105">
                       See How It Works
-                      <ExternalLink className="ml-3 h-5 w-5" />
+                      <ExternalLink className="ml-3 h-4 w-4" />
                     </Button>
                   </div>
                   <div className="w-full lg:w-1/2 h-80 bg-gradient-to-br from-green-500/20 via-turquoise-400/20 to-blue-500/20 rounded-2xl relative overflow-hidden">
@@ -268,10 +268,10 @@ const Index = () => {
                   <div className="flex-1 space-y-8">
                     <div className="flex items-center gap-6">
                       <div className="p-4 bg-green-400/10 rounded-2xl">
-                        <Scale className="h-12 w-12 text-green-400" />
+                        <Scale className="h-8 w-8 text-green-400" />
                       </div>
                       <div>
-                        <h3 className="text-4xl md:text-5xl font-bold text-white">Loustad Fintax™</h3>
+                        <h3 className="text-2xl md:text-3xl font-bold text-white">Loustad Fintax™</h3>
                         <div className="flex gap-2 mt-2">
                           <span className="px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm">Legal</span>
                           <span className="px-3 py-1 bg-yellow-500/20 text-yellow-400 rounded-full text-sm">Finance</span>
@@ -279,13 +279,13 @@ const Index = () => {
                         </div>
                       </div>
                     </div>
-                    <p className="text-xl text-gray-300 leading-relaxed">
+                    <p className="text-lg text-gray-300 leading-relaxed">
                       Advanced Moroccan fiscal intelligence system with real-time Q&A capabilities, 
                       revolutionizing tax compliance and legal document processing through neural language understanding.
                     </p>
-                    <Button className="bg-green-500 hover:bg-green-400 text-black font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105">
+                    <Button className="bg-green-500 hover:bg-green-400 text-black font-semibold px-6 py-3 rounded-xl transition-all duration-300 hover:scale-105">
                       Try It Now
-                      <Zap className="ml-3 h-5 w-5" />
+                      <Zap className="ml-3 h-4 w-4" />
                     </Button>
                   </div>
                   <div className="w-full lg:w-1/2 h-80 bg-gradient-to-br from-green-500/20 via-yellow-400/20 to-turquoise-500/20 rounded-2xl relative overflow-hidden">
@@ -306,10 +306,10 @@ const Index = () => {
                   <div className="flex-1 space-y-8">
                     <div className="flex items-center gap-6">
                       <div className="p-4 bg-purple-400/10 rounded-2xl">
-                        <TrendingUp className="h-12 w-12 text-purple-400" />
+                        <TrendingUp className="h-8 w-8 text-purple-400" />
                       </div>
                       <div>
-                        <h3 className="text-4xl md:text-5xl font-bold text-white">Loustad Smart IP™</h3>
+                        <h3 className="text-2xl md:text-3xl font-bold text-white">Loustad Smart IP™</h3>
                         <div className="flex gap-2 mt-2">
                           <span className="px-3 py-1 bg-purple-500/20 text-purple-400 rounded-full text-sm">Patents</span>
                           <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">PQAI</span>
@@ -317,13 +317,13 @@ const Index = () => {
                         </div>
                       </div>
                     </div>
-                    <p className="text-xl text-gray-300 leading-relaxed">
+                    <p className="text-lg text-gray-300 leading-relaxed">
                       Next-generation patent AI system built on PQAI architecture, enhanced and extended for 
                       intelligent intellectual property search, analysis, and strategic patent landscape mapping.
                     </p>
-                    <Button className="bg-purple-500 hover:bg-purple-400 text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105">
+                    <Button className="bg-purple-500 hover:bg-purple-400 text-white font-semibold px-6 py-3 rounded-xl transition-all duration-300 hover:scale-105">
                       Run Smart Search
-                      <Brain className="ml-3 h-5 w-5" />
+                      <Brain className="ml-3 h-4 w-4" />
                     </Button>
                   </div>
                   <div className="w-full lg:w-1/2 h-80 bg-gradient-to-br from-purple-500/20 via-indigo-400/20 to-turquoise-500/20 rounded-2xl relative overflow-hidden">
@@ -343,11 +343,11 @@ const Index = () => {
       <section className="relative z-10 py-32 px-6 bg-gradient-to-b from-transparent to-gray-900/40">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-20">
-            <h2 className="text-5xl md:text-7xl font-bold mb-12 gradient-text leading-tight">
+            <h2 className="text-3xl md:text-5xl font-bold mb-8 gradient-text leading-tight">
               You have a vision.<br />
               Let's build the AI to match it.
             </h2>
-            <p className="text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
               We design and develop tailor-made AI systems that solve your specific challenges, 
               no matter how complex or unique your domain.
             </p>
@@ -416,11 +416,11 @@ const Index = () => {
               <Button 
                 type="submit" 
                 size="lg" 
-                className="w-full bg-turquoise-500 hover:bg-turquoise-400 text-black font-bold py-8 text-2xl rounded-xl relative overflow-hidden group transition-all duration-300 hover:scale-[1.02]"
+                className="w-full bg-turquoise-500 hover:bg-turquoise-400 text-black font-bold py-6 text-xl rounded-xl relative overflow-hidden group transition-all duration-300 hover:scale-[1.02]"
               >
                 <span className="relative z-10 flex items-center justify-center">
                   Request Custom Quote • 72h Response
-                  <ArrowRight className="ml-4 h-8 w-8 transition-transform group-hover:translate-x-2" />
+                  <ArrowRight className="ml-4 h-6 w-6 transition-transform group-hover:translate-x-2" />
                 </span>
                 <div className="absolute inset-0 bg-gradient-to-r from-turquoise-400 to-turquoise-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </Button>
@@ -434,8 +434,8 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-12">
             <div className="text-center lg:text-left">
-              <h3 className="text-4xl font-bold gradient-text mb-4">Loustad R&D™</h3>
-              <p className="text-xl text-gray-400">Building the future of intelligent systems</p>
+              <h3 className="text-2xl font-bold gradient-text mb-4">Loustad R&D</h3>
+              <p className="text-lg text-gray-400">Building the future of intelligent systems</p>
               <div className="flex items-center gap-4 mt-4 justify-center lg:justify-start">
                 <div className="w-3 h-3 bg-turquoise-400 rounded-full animate-pulse"></div>
                 <span className="text-turquoise-400 font-medium">Neural networks online</span>
